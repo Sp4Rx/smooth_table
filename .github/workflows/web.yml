@@ -3,6 +3,8 @@ name: Gh-Pages
 on:
   push:
     branches: [ main ]
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -15,6 +17,3 @@ jobs:
           flutter-version: '3.7.10'
           channel: 'stable'
       - uses: bluefireteam/flutter-gh-pages@v7
-        with:
-          baseHref: /smooth_table/
-          targetBranch: main
