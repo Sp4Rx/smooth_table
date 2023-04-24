@@ -2,7 +2,7 @@ final List<Map<String, String>> dummyTableData = [
   {
     'Name': 'Alice Williams',
     'Age': '33',
-    'City': 'Houston',
+    'City': 'Houston Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla ',
     'Sex': 'Female',
     'Ethnicity': 'Asian',
     'Weight': '246 lbs',
